@@ -1,3 +1,5 @@
+The raw data collected on Colosseum for ST-FB-AII can be found in the ST-FB-AII folder.
+
 To get the MT-FB-AII data used in the paper, follow this proceedure:
 
 1. Open MT-FB-AII
