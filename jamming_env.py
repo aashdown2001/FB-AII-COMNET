@@ -9,8 +9,10 @@ BASELINE_SINR_DB = 35.0
 # Higher value = jammer has stronger path at that frequency = more effective jamming per unit power
 # Shape (52,) — one value per PRB, not per UE, since the jammer's channel
 # to a given frequency is independent of which UE happens to be using that PRB
+# np.random.seed(42) # Trained with seed=42, tested with seed=999
 np.random.seed(999)
-GLOBAL_JAMMER_PATH_LOSS = np.random.uniform(20.0, 30.0, size=(52,)).astype(np.float32)
+# GLOBAL_JAMMER_PATH_LOSS = np.random.uniform(1.0, 51.0, size=(52,)).astype(np.float32) # Trained
+GLOBAL_JAMMER_PATH_LOSS = np.random.uniform(20.0, 30.0, size=(52,)).astype(np.float32) # Tested
 np.random.seed(None)  # restore true randomness for everything else
 
 class JammingEnv(gym.Env):
