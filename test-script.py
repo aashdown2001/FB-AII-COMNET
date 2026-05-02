@@ -10,7 +10,7 @@ from jamming_env import JammingEnv
 # GLOBAL SETTINGS
 # =======================
 MODEL_PATH = "ppo_jammer_model_randomized_120M-8FIXED.zip"
-BASE_OUTPUT_DIR = "/workspace/FB-AII-DATA/4retrained/minor-rev-data/"
+BASE_OUTPUT_DIR = "/workspace/FB-AII-DATA/4retrained/data/"
 EPISODES = 100
 SEED = 999
 
