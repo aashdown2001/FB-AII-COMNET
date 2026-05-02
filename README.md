@@ -6,4 +6,4 @@ To get the data used in the paper, follow this proceedure:
 
 3. Run compare.py inside data/ to get numerical results
 
-4. Run master-plot.py for timeseries plots and bar.py for barchart
+4. Run master-plot.py inside data/ for timeseries plots and bar.py inside data/ for barchart
